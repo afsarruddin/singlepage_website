@@ -1,0 +1,167 @@
+@media only screen and (max-width: 1200px) {
+  
+  .row {
+    margin: 0 15px;
+  }
+  .hero-text-box {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+
+  .mobile-menu span {
+    display: block;
+  }
+
+  .row {
+    margin: 0 15px;
+  }
+
+  .hero-text-box {
+    width: 90%;
+  }
+  .main-nav {
+    display: none;
+  }
+
+  html {
+    font-size: 57.5%;
+  }
+
+  .client-photo {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .client-review {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+  .contact-section form {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+
+  header {
+    height: 65vh;
+  }
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+
+  .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .span_1_of_2 {
+    width: 46.2%;
+  }
+
+  .contact-section form .span_1_of_2{
+    width: 49.2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .little-description {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .span_1_of_2 {
+    width: 48.2%;
+  }
+
+  .contact-section form .span_1_of_2 {
+    width: 49.2%;
+  }
+
+  .footer-section li {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .portfolio-section .span_1_of_2 {
+    width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  .span_1_of_4{
+    width: 100%;
+  }
+  header {
+    height: 55vh;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+  html {
+    font-size: 63%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 2.6rem;
+  }
+  .span_1_of_2 {
+    width: 100%;
+  }
+
+  .contact-section form .span_1_of_2{
+    width: 100%;
+  }
+
+  .footer-section li {
+    display: inline-block;
+    margin: 0 1rem;
+    line-height: 3rem;
+  }
+
+  .testimonial .col:nth-child(3),
+  .testimonial .col:nth-child(4) {
+    margin-top: 4rem;
+  }
+
+}
+
+
+
+
